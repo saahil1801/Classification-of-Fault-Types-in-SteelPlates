@@ -1,0 +1,65 @@
+Train data set : (19219, 35)
+Test data set : (12814, 28)
+Columns in df_train: ['id', 'X_Minimum', 'X_Maximum', 'Y_Minimum', 'Y_Maximum', 'Pixels_Areas', 'X_Perimeter', 'Y_Perimeter', 'Sum_of_Luminosity', 'Minimum_of_Luminosity', 'Maximum_of_Luminosity', 'Length_of_Conveyer', 'TypeOfSteel_A300', 'TypeOfSteel_A400', 'Steel_Plate_Thickness', 'Edges_Index', 'Empty_Index', 'Square_Index', 'Outside_X_Index', 'Edges_X_Index', 'Edges_Y_Index', 'Outside_Global_Index', 'LogOfAreas', 'Log_X_Index', 'Log_Y_Index', 'Orientation_Index', 'Luminosity_Index', 'SigmoidOfAreas', 'Pastry', 'Z_Scratch', 'K_Scatch', 'Stains', 'Dirtiness', 'Bumps', 'Other_Faults']
+Columns in df_test: ['id', 'X_Minimum', 'X_Maximum', 'Y_Minimum', 'Y_Maximum', 'Pixels_Areas', 'X_Perimeter', 'Y_Perimeter', 'Sum_of_Luminosity', 'Minimum_of_Luminosity', 'Maximum_of_Luminosity', 'Length_of_Conveyer', 'TypeOfSteel_A300', 'TypeOfSteel_A400', 'Steel_Plate_Thickness', 'Edges_Index', 'Empty_Index', 'Square_Index', 'Outside_X_Index', 'Edges_X_Index', 'Edges_Y_Index', 'Outside_Global_Index', 'LogOfAreas', 'Log_X_Index', 'Log_Y_Index', 'Orientation_Index', 'Luminosity_Index', 'SigmoidOfAreas']
+Columns in DataFrame: Index(['id', 'X_Minimum', 'X_Maximum', 'Y_Minimum', 'Y_Maximum',
+       'Pixels_Areas', 'X_Perimeter', 'Y_Perimeter', 'Sum_of_Luminosity',
+       'Minimum_of_Luminosity', 'Maximum_of_Luminosity', 'Length_of_Conveyer',
+       'TypeOfSteel_A300', 'TypeOfSteel_A400', 'Steel_Plate_Thickness',
+       'Edges_Index', 'Empty_Index', 'Square_Index', 'Outside_X_Index',
+       'Edges_X_Index', 'Edges_Y_Index', 'Outside_Global_Index', 'LogOfAreas',
+       'Log_X_Index', 'Log_Y_Index', 'Orientation_Index', 'Luminosity_Index',
+       'SigmoidOfAreas', 'Pastry', 'Z_Scratch', 'K_Scatch', 'Stains',
+       'Dirtiness', 'Bumps', 'Other_Faults'],
+      dtype='object')
+Columns in DataFrame: Index(['id', 'X_Minimum', 'X_Maximum', 'Y_Minimum', 'Y_Maximum',
+       'Pixels_Areas', 'X_Perimeter', 'Y_Perimeter', 'Sum_of_Luminosity',
+       'Minimum_of_Luminosity', 'Maximum_of_Luminosity', 'Length_of_Conveyer',
+       'TypeOfSteel_A300', 'TypeOfSteel_A400', 'Steel_Plate_Thickness',
+       'Edges_Index', 'Empty_Index', 'Square_Index', 'Outside_X_Index',
+       'Edges_X_Index', 'Edges_Y_Index', 'Outside_Global_Index', 'LogOfAreas',
+       'Log_X_Index', 'Log_Y_Index', 'Orientation_Index', 'Luminosity_Index',
+       'SigmoidOfAreas'],
+      dtype='object')
+Processing target: Pastry
+Target: Pastry
+Accuracy:  0.8350676378772113
+F1 Score:  0.35873229939312207
+Precision:  0.25601539942252166
+Recall:  0.5990990990990991
+Processing target: Z_Scratch
+Target: Z_Scratch
+Accuracy:  0.9361775927852931
+F1 Score:  0.5827664399092971
+Precision:  0.4706959706959707
+Recall:  0.7648809523809523
+Processing target: K_Scatch
+Target: K_Scatch
+Accuracy:  0.9595907041276448
+F1 Score:  0.8906616611919287
+Precision:  0.8564981949458483
+Recall:  0.927663734115347
+Processing target: Stains
+Target: Stains
+Accuracy:  0.9816163718348943
+F1 Score:  0.736318407960199
+Precision:  0.6141078838174274
+Recall:  0.9192546583850931
+Processing target: Dirtiness
+Target: Dirtiness
+Accuracy:  0.9094693028095734
+F1 Score:  0.239067055393586
+Precision:  0.15045871559633028
+Recall:  0.5815602836879432
+Processing target: Bumps
+Target: Bumps
+Accuracy:  0.7644814429413805
+F1 Score:  0.5238429172510519
+Precision:  0.51340206185567
+Recall:  0.5347172512526843
+Processing target: Other_Faults
+Target: Other_Faults
+Accuracy:  0.6614637530350329
+F1 Score:  0.47071583514099785
+Precision:  0.5178997613365155
+Recall:  0.43141153081510936

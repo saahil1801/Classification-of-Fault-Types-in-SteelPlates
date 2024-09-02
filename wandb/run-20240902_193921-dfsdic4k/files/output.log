@@ -1,0 +1,42 @@
+Processing target: Pastry
+Target: Pastry
+Accuracy:  0.8354144987859868
+F1 Score:  0.3677548301132578
+Precision:  0.261116367076632
+Recall:  0.6216216216216216
+Processing target: Z_Scratch
+Target: Z_Scratch
+Accuracy:  0.9360041623309053
+F1 Score:  0.5821064552661381
+Precision:  0.46983546617915906
+Recall:  0.7648809523809523
+Processing target: K_Scatch
+Target: K_Scatch
+Accuracy:  0.9599375650364204
+F1 Score:  0.8914983560356975
+Precision:  0.8580470162748643
+Recall:  0.927663734115347
+Processing target: Stains
+Target: Stains
+Accuracy:  0.981789802289282
+F1 Score:  0.7368421052631579
+Precision:  0.6176470588235294
+Recall:  0.9130434782608695
+Processing target: Dirtiness
+Target: Dirtiness
+Accuracy:  0.912244190079778
+F1 Score:  0.24024024024024024
+Precision:  0.1523809523809524
+Recall:  0.5673758865248227
+Processing target: Bumps
+Target: Bumps
+Accuracy:  0.7596253902185224
+F1 Score:  0.5147058823529411
+Precision:  0.5037697052775874
+Recall:  0.5261274158911954
+Processing target: Other_Faults
+Target: Other_Faults
+Accuracy:  0.663891779396462
+F1 Score:  0.47706422018348627
+Precision:  0.5218417945690673
+Recall:  0.4393638170974155

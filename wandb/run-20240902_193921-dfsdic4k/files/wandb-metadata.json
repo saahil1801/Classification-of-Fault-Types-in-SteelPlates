@@ -1,0 +1,49 @@
+{
+    "os": "macOS-14.4.1-arm64-arm-64bit",
+    "python": "3.9.6",
+    "heartbeatAt": "2024-09-02T14:09:23.190408",
+    "startedAt": "2024-09-02T14:09:21.522586",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/saahil/Desktop/Coding_Projects/ML/Steel Plate/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/saahil1801/Classification-of-Fault-Types-in-SteelPlates.git",
+        "commit": "befe3b11e23b337fe7c7292b62a2d196eacf716a"
+    },
+    "email": "saahil.kataria@gmail.com",
+    "root": "/Users/saahil/Desktop/Coding_Projects/ML/Steel Plate",
+    "host": "Saahils-MacBook-Pro.local",
+    "username": "saahil",
+    "executable": "/Users/saahil/Desktop/Coding_Projects/ML/Steel Plate/env/bin/python",
+    "cpu_count": 14,
+    "cpu_count_logical": 14,
+    "cpu_freq": {
+        "current": 4056,
+        "min": 1020,
+        "max": 4056
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4056,
+            "min": 1020,
+            "max": 4056
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 926.3517189025879,
+            "used": 19.079010009765625
+        }
+    },
+    "gpuapple": {
+        "type": "Apple M3 Max",
+        "vendor": "sppci_vendor_Apple"
+    },
+    "memory": {
+        "total": 36.0
+    }
+}
